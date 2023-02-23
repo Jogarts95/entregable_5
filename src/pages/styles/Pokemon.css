@@ -1,0 +1,166 @@
+.pokemon {
+	width: min(1000px, 100%);
+	border: 10px solid rgb(88, 117, 88);
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	margin: 110px auto;
+	max-height: 1200px;
+	max-width: 1100px;
+	
+}
+
+.pokemon__header {
+	height: 200px;
+	
+}
+
+.pokemon__img-body {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.pokemon__img {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.pokemon__body {
+	padding: 20px;
+}
+
+.pokemon__body-id {
+	text-align: center;
+	text-transform: capitalize;
+	padding: 82px 10px 10px 10px;
+}
+
+.pokemon__id {
+	font-size: 25px;
+}
+
+.pokemon__name {
+	text-align: center;
+	font-size: 35px;
+	text-transform: capitalize;
+}
+
+.pokemon__data {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 18px;
+	margin: 15px 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.pokemon__data-title {
+	margin-bottom: 10px;
+}
+
+.pokemon__info {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 18px;
+	margin: 4px 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.pokemon-conteiner {
+	padding: 17px 20px;
+}
+
+.pokemon__info-title {
+	text-align: center;
+	font-size: 16px;
+}
+
+.pokemon__info-conteiner-text {
+	display: block;
+}
+
+.pokemon__info-span {
+	color: white;
+	font-weight: bold;
+}
+
+.pokemon__info-text {
+    background-color: #f7f7f7;
+	margin: 4px 0;
+	border-radius: 15px;
+}
+
+
+.pokemon__stats {
+	display: flex;
+	flex-direction: column;
+	text-align: initial;
+}
+
+
+.pokemon__stats-conteiner {
+	display: flex;
+	flex-direction: column;
+}
+
+.pokemon__stats-name {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.pokemon__stats-name-title {
+	text-align: start;
+}
+
+.pokemon__stats-name-subtitle {
+	text-align: end;
+}
+
+.pokemon__power-conteiner {
+	background-color: #f7f7f7;
+	height: 25px;
+}
+.pokemon__power-nivel {
+	background: linear-gradient(90deg, #fcd676 -2.25%, #e6901e 133.18%);
+	height: 25px;
+	width: 50%;
+	border-radius: 4px;
+}
+
+@media (min-width: 650px) {
+	.pokemon__id {
+		font-size: 40px;
+	}
+	.pokemon__name {
+		font-size: 45px;
+	}
+	.pokemon__data {
+		font-size: 25px;
+	}
+	.pokemon__data-title {
+		font-size: 28px;
+	}
+	.pokemon__info-title {
+		font-size: 28px;
+	}
+	.pokemon__info-conteiner-text {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		justify-content: space-between;
+		gap: 20px;
+		margin: 10px 0;
+		font-size: 20px;
+	}
+	.pokemon__info-text {
+		font-size: 20px;
+	}
+
+	.pokemon__stats {
+		font-size: 22px;
+		margin-top: 20px;
+	}
+}
+
+
